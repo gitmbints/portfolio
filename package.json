@@ -3,6 +3,7 @@
 	"source": "src/index.html",
 	"scripts": {
 		"start": "parcel",
+		"sass": "sass src/sass/main.scss src/main.css --watch",
 		"build": "parcel build"
 	},
 	"devDependencies": {
